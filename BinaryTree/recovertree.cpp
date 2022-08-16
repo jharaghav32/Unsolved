@@ -12,6 +12,9 @@
 //  */
 // class Solution {
 // public:
+// yaha pe hamne ek map bna liya jisme level wise ek ek element aata agar upper level hai present to wo es level 
+// ka parent hoga so upper level ke left if not available than right me ye node insert kr dete hai
+// every time the another node at same level get override and if left child is inserted we push the right one .
 //     TreeNode* recoverFromPreorder(string traversal) {
 //         unordered_map<int,TreeNode*>ump;
 //         int dash=0;
