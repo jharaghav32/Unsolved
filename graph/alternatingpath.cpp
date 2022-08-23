@@ -1,6 +1,7 @@
 // problem link:https://leetcode.com/problems/shortest-path-with-alternating-colors/submissions/
 
-
+#include<bits/stdc++.h>
+using namespace std;
 
 
 class Solution {
