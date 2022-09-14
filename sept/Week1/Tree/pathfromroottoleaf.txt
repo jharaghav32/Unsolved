@@ -1,0 +1,22 @@
+Here  I have to print all the path from root node to leaf nodes
+
+For this we can use any traversal tree what we have to do 
+is to check if root is not null then push it into map/vector
+and if root is leaf node print the element present in vector/map
+
+Now when we traverse the whole left child and right child of root
+element we simply removes the root element from vector/map
+
+Code:
+if(root==NULL)
+return;
+mp[root->val]++;
+if(isLeafNode){
+    traverse map and print node
+}
+else{
+    traverse(leftchild);
+    traverse(rightchild);
+}
+after traversing the child of root node remove the root elemnent
+mp[root->val]--; backtracking things
